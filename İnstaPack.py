@@ -47,7 +47,7 @@ while 99:
     if dsoru == "1":
         print("Kurulum Gerçekleştiriliyor...")
         os.chdir("/data/data/com.termux/files/home/")
-        os.system("git clone -b Termux-Support-Branch https://github.com/DarkSecDevelopers/HiddenEye.git")
+        os.system("git clone https://github.com/DarkSecDevelopers/HiddenEye.git")
 
     if dsoru == "2":
         print("Kurulum Gerçekleştiriliyor...")
